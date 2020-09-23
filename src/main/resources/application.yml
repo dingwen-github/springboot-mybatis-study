@@ -1,0 +1,4 @@
+#激活配置
+spring:
+  profiles:
+    active: dev

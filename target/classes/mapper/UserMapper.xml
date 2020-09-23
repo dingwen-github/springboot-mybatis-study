@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--对应的UserMap类-->
+<mapper namespace="com.dw.sms.mapper.UserMapper">
+    <!--配置数据库字段和实体字段映射规则-->
+    <resultMap id="BaseResultMap" type="com.dw.sms.entity.User">
+        <result column="user_id" property="userId"/>
+        <result column="user_name" property="username"/>
+        <result column="password" property="password"/>
+        <result column="age" property="age"/>
+    </resultMap>
+    <select id="findById" resultMap="BaseResultMap">
+
+        <!--
+            # 将传入的数据加上双引号,能够防止SQL注入
+            $ 传入数据是什么就显示什么
+        -->
+        select * from user where user_id = #{userId}
+    </select>
+    <select id="findAll" resultMap="BaseResultMap">
+        select * from user
+    </select>
+
+    <select id="queryCondition" resultMap="BaseResultMap">
+        select * from user
+        <!-- 传递多个参数，需要使用where标签，他去自动去除条件语句句首的AND和OR。如果不加where标签，直接只用WHERE，那么如果userId为null，则生成的sql会带有and or 等导致报错-->
+        <where>
+            <if test="username != null and username != ''">
+                user_name like concat('%',#{username},'%')
+            </if>
+            <if test="age != null and age != 0">
+            <!--直接使用 > 也是可以的   < &lt;-->
+                and age &gt; #{age}
+            </if>
+        </where>
+    </select>
+    
+    <!--
+        分页查询+排序
+        默认为升序 ASC
+        降序  DESC
+    -->
+    <select id="findByPaging" parameterType="map" resultMap="BaseResultMap">
+        select * from user
+        <if test="order != null and order != ''">
+            order by age ${order}
+        </if>
+    </select>
+
+    <!--
+         parameterType ，入参的全限定类名或类型别名
+         keyColumn ，设置数据表自动生成的主键名,自增ID执行插入
+         useGeneratedKeys ，取值范围true|false(默认值)，设置是否使用JDBC的getGenereatedKeys方法获取主键并赋值到keyProperty设置的领域模型属性中
+         keyProperty,实体属性名称对应数据库表主键，可以返回执行插入成功之后的对象ID，需要通过对象的get获取
+    -->
+    <insert id="add" parameterType="com.dw.sms.entity.User" keyColumn="user_id" useGeneratedKeys="true" keyProperty="userId">
+        insert into user values (user_id,#{username},#{password},#{age})
+    </insert>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        delete from user where user_id = #{userId}
+    </delete>
+
+    <update id="update" parameterType="user" keyProperty="userId" useGeneratedKeys="true">
+        update user  set user_name = #{username}, password = #{password}, age = #{age} where user_id = #{userId}
+    </update>
+
+</mapper>
