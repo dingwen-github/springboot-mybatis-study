@@ -1,90 +1,274 @@
-2020-09-23 17:21:58.120 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 11568 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
-2020-09-23 17:21:58.120 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
-2020-09-23 17:21:58.551 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2020-09-23 17:21:58.552 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-09-23 17:21:58.552 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-23 17:21:58.567 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
-2020-09-23 17:21:58.567 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 444 ms
-2020-09-23 17:21:58.742 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-09-23 17:21:58.788 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:21:58.800 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2020-09-23 17:21:58.892 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
-2020-09-23 17:21:58.893 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-09-23 17:21:58.894 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-09-23 17:21:58.902 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-09-23 17:21:58.949 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 1.045 seconds (JVM running for 522.812)
-2020-09-23 17:21:58.951 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2020-09-23 17:27:51.890 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 2668 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
-2020-09-23 17:27:51.893 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
-2020-09-23 17:27:51.988 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-09-23 17:27:51.989 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-09-23 17:27:54.082 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2020-09-23 17:27:54.110 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
-2020-09-23 17:27:54.119 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-09-23 17:27:54.120 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-23 17:27:54.241 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
-2020-09-23 17:27:54.241 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2252 ms
-2020-09-23 17:27:55.057 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-09-23 17:27:55.143 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:27:55.192 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2020-09-23 17:27:55.343 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
-2020-09-23 17:27:55.367 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
-2020-09-23 17:27:55.368 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-09-23 17:27:55.384 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-09-23 17:27:55.421 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-09-23 17:27:55.584 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 4.64 seconds (JVM running for 5.557)
-2020-09-23 17:28:06.255 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-09-23 17:28:06.255 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2020-09-23 17:28:06.262 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
-2020-09-23 17:28:06.284 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.UserController - 查询所有用户信息，debug测试
-2020-09-23 17:28:06.305 [http-nio-192.168.0.117-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2020-09-23 17:28:06.722 [http-nio-192.168.0.117-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2020-09-23 17:36:48.249 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:36:48.251 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2020-09-23 17:36:48.268 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2020-09-23 17:36:48.509 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 2668 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
-2020-09-23 17:36:48.509 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
-2020-09-23 17:36:48.930 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2020-09-23 17:36:48.931 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
-2020-09-23 17:36:48.931 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-09-23 17:36:48.931 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-23 17:36:48.948 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
-2020-09-23 17:36:48.948 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 436 ms
-2020-09-23 17:36:49.274 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-09-23 17:36:49.318 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:36:49.328 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2020-09-23 17:36:49.398 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
-2020-09-23 17:36:49.402 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
-2020-09-23 17:36:49.403 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-09-23 17:36:49.404 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-09-23 17:36:49.410 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-09-23 17:36:49.458 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 1.015 seconds (JVM running for 539.431)
-2020-09-23 17:36:49.462 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2020-09-23 17:36:51.900 [Thread-21] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:36:52.193 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 2668 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
-2020-09-23 17:36:52.193 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
-2020-09-23 17:36:52.644 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2020-09-23 17:36:52.644 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
-2020-09-23 17:36:52.645 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2020-09-23 17:36:52.646 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-2020-09-23 17:36:52.661 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
-2020-09-23 17:36:52.662 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 466 ms
-2020-09-23 17:36:52.821 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-09-23 17:36:52.865 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:36:52.879 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2020-09-23 17:36:52.969 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
-2020-09-23 17:36:52.983 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
-2020-09-23 17:36:52.984 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-09-23 17:36:52.985 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-09-23 17:36:53.009 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-09-23 17:36:53.100 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 0.946 seconds (JVM running for 543.073)
-2020-09-23 17:36:53.102 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-2020-09-23 17:36:57.190 [main] INFO  com.dw.sms.SpringbootMybatisStudyApplicationTests - Starting SpringbootMybatisStudyApplicationTests on SC-202007141600 with PID 2092 (started by Administrator in E:\study\springboot-mybatis-study)
-2020-09-23 17:36:57.192 [main] INFO  com.dw.sms.SpringbootMybatisStudyApplicationTests - The following profiles are active: dev
-2020-09-23 17:37:00.825 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-09-23 17:37:01.669 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-09-23 17:37:02.240 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2020-09-23 17:37:02.273 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-09-23 17:37:02.342 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2020-09-23 17:37:02.719 [main] INFO  com.dw.sms.SpringbootMybatisStudyApplicationTests - Started SpringbootMybatisStudyApplicationTests in 6.098 seconds (JVM running for 7.352)
-2020-09-23 17:37:03.311 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 14:58:01.439 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 10924 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 14:58:01.473 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 14:58:01.609 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 14:58:01.610 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 14:58:03.904 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 14:58:03.913 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 14:58:03.913 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 14:58:03.913 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 14:58:03.992 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 14:58:03.992 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2381 ms
+2020-09-24 14:58:04.898 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 14:58:04.981 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 14:58:05.025 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 14:58:05.229 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 14:58:05.259 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 14:58:05.260 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 14:58:05.290 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 14:58:05.325 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 14:58:05.517 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 4.839 seconds (JVM running for 5.947)
+2020-09-24 15:01:56.261 [http-nio-192.168.0.117-8888-exec-2] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:01:56.261 [http-nio-192.168.0.117-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:01:56.268 [http-nio-192.168.0.117-8888-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-09-24 15:02:12.231 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 上传文件名称：wechat-tx.jpg,上传文件后缀.jpg
+2020-09-24 15:05:08.973 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:05:09.158 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 10924 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:05:09.159 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:05:09.656 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:05:09.657 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:05:09.658 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:05:09.658 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:05:09.672 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:05:09.672 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 509 ms
+2020-09-24 15:05:09.843 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:05:09.908 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:05:09.943 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:05:10.093 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:05:10.097 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:05:10.098 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:05:10.099 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:05:10.109 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:05:10.159 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 1.044 seconds (JVM running for 430.59)
+2020-09-24 15:05:10.162 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-09-24 15:05:14.696 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:05:14.698 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:05:14.708 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-09-24 15:05:14.727 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 上传文件名称：wechat-tx.jpg,上传文件后缀.jpg
+2020-09-24 15:05:14.727 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 文件上传路径：E:\study\springboot-mybatis-study\fileswechat-tx.jpg
+2020-09-24 15:07:23.750 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 7604 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:07:23.752 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:07:23.806 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 15:07:23.806 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 15:07:25.641 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:07:25.648 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:07:25.648 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:07:25.648 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:07:25.710 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:07:25.711 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1905 ms
+2020-09-24 15:07:26.378 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:07:26.466 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:07:26.513 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:07:26.658 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:07:26.677 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:07:26.678 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:07:26.692 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:07:26.721 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:07:26.856 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 3.794 seconds (JVM running for 4.622)
+2020-09-24 15:07:30.556 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:07:30.556 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:07:30.561 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-09-24 15:07:31.571 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 上传文件名称：wechat-tx.jpg,上传文件后缀.jpg
+2020-09-24 15:07:31.571 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 文件上传路径：./fileswechat-tx.jpg
+2020-09-24 15:09:48.467 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 72 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:09:48.469 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:09:48.511 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 15:09:48.511 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 15:09:49.859 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:09:49.867 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:09:49.867 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:09:49.868 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:09:49.933 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:09:49.934 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1423 ms
+2020-09-24 15:09:50.537 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:09:50.706 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:09:50.740 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:09:50.860 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:09:50.876 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:09:50.877 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:09:50.891 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:09:50.920 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:09:51.057 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 3.026 seconds (JVM running for 3.918)
+2020-09-24 15:09:57.776 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:09:57.776 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:09:57.781 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-09-24 15:09:57.817 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 上传文件名称：wechat-tx.jpg,上传文件后缀.jpg
+2020-09-24 15:09:57.817 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 文件上传路径：E:/study/springboot-mybatis-study/fileswechat-tx.jpg
+2020-09-24 15:10:52.472 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 11420 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:10:52.475 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:10:52.522 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 15:10:52.522 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 15:10:53.936 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:10:53.944 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:10:53.944 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:10:53.945 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:10:54.011 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:10:54.011 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1488 ms
+2020-09-24 15:10:54.628 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:10:54.702 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:10:54.742 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:10:54.876 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:10:54.893 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:10:54.894 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:10:54.910 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:10:54.940 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:10:55.069 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 3.178 seconds (JVM running for 3.904)
+2020-09-24 15:11:03.787 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:11:03.788 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:11:03.792 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-09-24 15:11:03.830 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 上传文件名称：wechat-tx.jpg,上传文件后缀.jpg
+2020-09-24 15:11:03.830 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - 文件上传路径：E:/study/springboot-mybatis-study/files/wechat-tx.jpg
+2020-09-24 15:13:40.256 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:13:40.495 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 11420 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:13:40.496 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:13:41.176 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:13:41.184 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:13:41.204 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:13:41.209 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:13:41.225 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:13:41.225 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 726 ms
+2020-09-24 15:13:41.450 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:13:41.477 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:13:41.484 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:13:41.538 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:13:41.541 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:13:41.542 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:13:41.542 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:13:41.547 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:13:41.583 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 1.183 seconds (JVM running for 170.418)
+2020-09-24 15:13:41.585 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-09-24 15:14:26.583 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:14:26.584 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:14:26.595 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-09-24 15:14:40.968 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 7532 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:14:40.971 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:14:41.058 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 15:14:41.059 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 15:14:42.747 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:14:42.757 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:14:42.758 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:14:42.759 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:14:42.846 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:14:42.846 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1787 ms
+2020-09-24 15:14:43.499 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:14:43.564 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:14:43.599 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:14:43.718 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:14:43.737 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:14:43.738 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:14:43.751 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:14:43.780 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:14:43.915 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 3.444 seconds (JVM running for 4.156)
+2020-09-24 15:14:49.651 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:14:49.651 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:14:49.657 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-09-24 15:15:26.292 [http-nio-192.168.0.117-8888-exec-2] INFO  com.dw.sms.controller.UserController - 查询所有用户信息，debug测试
+2020-09-24 15:15:26.336 [http-nio-192.168.0.117-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-24 15:15:27.027 [http-nio-192.168.0.117-8888-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-24 15:16:27.397 [http-nio-192.168.0.117-8888-exec-6] INFO  com.dw.sms.controller.UserController - 查询所有用户信息，debug测试
+2020-09-24 15:16:33.184 [http-nio-192.168.0.117-8888-exec-7] INFO  com.dw.sms.controller.UserController - 查询所有用户信息，debug测试
+2020-09-24 15:22:13.672 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:22:13.673 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-09-24 15:22:13.689 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-09-24 15:22:13.948 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 7532 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:22:13.948 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:22:14.425 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:22:14.426 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:22:14.429 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:22:14.443 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:22:14.477 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:22:14.477 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 526 ms
+2020-09-24 15:22:14.658 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:22:14.708 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:22:14.720 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:22:14.789 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:22:14.792 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:22:14.793 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:22:14.794 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:22:14.804 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:22:14.832 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 0.934 seconds (JVM running for 455.073)
+2020-09-24 15:22:14.838 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-09-24 15:38:38.390 [Thread-18] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:38:38.629 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 7532 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:38:38.629 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:38:39.097 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:38:39.098 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:38:39.099 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:38:39.099 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:38:39.113 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:38:39.113 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 480 ms
+2020-09-24 15:38:39.296 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:38:39.358 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:38:39.367 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:38:39.420 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:38:39.422 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:38:39.424 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:38:39.425 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:38:39.436 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:38:39.471 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 0.892 seconds (JVM running for 1439.712)
+2020-09-24 15:38:39.474 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-09-24 15:39:18.553 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 15:39:18.554 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 15:39:18.563 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-09-24 15:40:18.239 [Thread-23] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:40:18.497 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 7532 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:40:18.497 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:40:19.314 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:40:19.316 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:40:19.317 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:40:19.317 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:40:19.333 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:40:19.333 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 834 ms
+2020-09-24 15:40:19.485 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:40:19.520 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:40:19.528 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:40:19.589 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:40:19.592 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:40:19.592 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:40:19.593 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:40:19.603 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:40:19.628 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 1.185 seconds (JVM running for 1539.869)
+2020-09-24 15:40:19.630 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-09-24 15:47:04.195 [Thread-28] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:47:04.331 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 7532 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 15:47:04.332 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 15:47:04.599 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 15:47:04.599 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:47:04.599 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 15:47:04.600 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 15:47:04.610 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 15:47:04.610 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 276 ms
+2020-09-24 15:47:04.725 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 15:47:04.749 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 15:47:04.755 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 15:47:04.797 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 15:47:04.800 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 15:47:04.800 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 15:47:04.801 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 15:47:04.807 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 15:47:04.831 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 0.527 seconds (JVM running for 1945.071)
+2020-09-24 15:47:04.833 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-09-24 16:09:52.307 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Starting SpringbootMybatisStudyApplication on SC-202007141600 with PID 11808 (E:\study\springboot-mybatis-study\target\classes started by Administrator in E:\study\springboot-mybatis-study)
+2020-09-24 16:09:52.311 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - The following profiles are active: dev
+2020-09-24 16:09:52.360 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-24 16:09:52.362 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-24 16:09:53.648 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2020-09-24 16:09:53.655 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 16:09:53.655 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-24 16:09:53.656 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-24 16:09:53.732 [restartedMain] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring embedded WebApplicationContext
+2020-09-24 16:09:53.733 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+2020-09-24 16:09:54.316 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-09-24 16:09:54.383 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-24 16:09:54.418 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-24 16:09:54.548 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-192.168.0.117-8888"]
+2020-09-24 16:09:54.566 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path '/springboot-mybatis-study'
+2020-09-24 16:09:54.567 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-09-24 16:09:54.581 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-09-24 16:09:54.610 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-09-24 16:09:54.747 [restartedMain] INFO  com.dw.sms.SpringbootMybatisStudyApplication - Started SpringbootMybatisStudyApplication in 2.904 seconds (JVM running for 3.757)
+2020-09-24 16:10:36.193 [http-nio-192.168.0.117-8888-exec-1] INFO  o.a.c.c.C.[.[.[/springboot-mybatis-study] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-24 16:10:36.193 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-24 16:10:36.199 [http-nio-192.168.0.117-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-09-24 16:10:36.226 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - FileController:download():下载成功
+2020-09-24 16:10:36.228 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - FileController:downLoad():bufferedInputStream已关闭
+2020-09-24 16:10:36.228 [http-nio-192.168.0.117-8888-exec-1] INFO  com.dw.sms.controller.FileController - FileController:downLoad():fileInputStream已关闭
