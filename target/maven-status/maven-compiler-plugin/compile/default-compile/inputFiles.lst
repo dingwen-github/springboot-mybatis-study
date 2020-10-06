@@ -2,9 +2,11 @@ E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\config\SwaggerConfig.
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\result\Result.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\result\ResultGenerator.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\SpringbootMybatisStudyApplication.java
+E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\config\MultipartConfig.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\service\impl\UserServiceImpl.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\mapper\UserMapper.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\result\ResultCode.java
+E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\controller\FileController.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\controller\UserController.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\entity\User.java
 E:\study\springboot-mybatis-study\src\main\java\com\dw\sms\service\UserService.java
