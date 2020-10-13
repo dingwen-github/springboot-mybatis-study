@@ -1,3 +1,0 @@
-2020-09-23 17:28:06.728 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
-2020-09-23 17:28:06.749 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
-2020-09-23 17:28:06.769 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12

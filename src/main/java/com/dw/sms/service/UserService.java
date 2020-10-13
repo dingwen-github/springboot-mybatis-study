@@ -17,7 +17,11 @@ public interface UserService {
 
     User update(User user);
 
-    List<User> queryCondition(String username,Integer age);
+    List<User> queryCondition(String username, Integer age);
 
     Page<User> findByPaging(Map params);
+
+    List<User> findAllDetail();
+
+    List<User> findAllDetails();
 }

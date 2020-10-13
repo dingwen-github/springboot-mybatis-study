@@ -11,6 +11,34 @@
         <result column="password" property="password"/>
         <result column="age" property="age"/>
     </resultMap>
+    <!--一对多映射配置-->
+    <resultMap id="userAccountMap" type="com.dw.sms.entity.User">
+        <id property="userId" column="user_id"></id>
+        <result property="username" column="user_name"></result>
+        <result property="password" column="password"></result>
+        <result property="age" column="age"></result>
+        <!--User 中的Account集合映射-->
+        <!--ofType：代表集合中元素的类型-->
+        <collection property="accountList" ofType="com.dw.sms.entity.Account">
+            <id column="account_id" property="accountId"></id>
+            <result column="user_id" property="userId"></result>
+            <result column="money" property="money"></result>
+        </collection>
+    </resultMap>
+
+    <!--多对多查询映射配置-->
+    <resultMap id="userRoleMap" type="com.dw.sms.entity.User">
+        <id property="userId" column="user_id"></id>
+        <result property="username" column="username"></result>
+        <result property="password" column="password"></result>
+        <result property="age" column="age"></result>
+        <!--Role-->
+        <collection property="roleList" ofType="com.dw.sms.entity.Role">
+            <id property="roleId" column="role_id"></id>
+            <result property="roleName" column="role_name"></result>
+            <result property="roleDesc" column="role_desc"></result>
+        </collection>
+    </resultMap>
     <select id="findById" resultMap="BaseResultMap">
 
         <!--
@@ -31,12 +59,12 @@
                 user_name like concat('%',#{username},'%')
             </if>
             <if test="age != null and age != 0">
-            <!--直接使用 > 也是可以的   < &lt;-->
+                <!--直接使用 > 也是可以的   < &lt;-->
                 and age &gt; #{age}
             </if>
         </where>
     </select>
-    
+
     <!--
         分页查询+排序
         默认为升序 ASC
@@ -55,7 +83,8 @@
          useGeneratedKeys ，取值范围true|false(默认值)，设置是否使用JDBC的getGenereatedKeys方法获取主键并赋值到keyProperty设置的领域模型属性中
          keyProperty,实体属性名称对应数据库表主键，可以返回执行插入成功之后的对象ID，需要通过对象的get获取
     -->
-    <insert id="add" parameterType="com.dw.sms.entity.User" keyColumn="user_id" useGeneratedKeys="true" keyProperty="userId">
+    <insert id="add" parameterType="com.dw.sms.entity.User" keyColumn="user_id" useGeneratedKeys="true"
+            keyProperty="userId">
         insert into user values (user_id,#{username},#{password},#{age})
     </insert>
 
@@ -67,4 +96,14 @@
         update user  set user_name = #{username}, password = #{password}, age = #{age} where user_id = #{userId}
     </update>
 
+
+    <!--User Account 一对多 查询-->
+    <select id="findAllDetail" resultMap="userAccountMap">
+        select u.*,a.account_id,a.money from `user` u, account a where u.user_id = a.user_id
+    </select>
+
+    <!--User Role 多对多-->
+    <select id="findAllDetails" resultMap="userRoleMap">
+        select u.*,r.* from `user` u left outer join `user_role` ur on ur.user_id = u.user_id left outer join role r on r.role_id = ur.role_id
+    </select>
 </mapper>

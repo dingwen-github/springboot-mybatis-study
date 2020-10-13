@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--对应的EnumTestMapper类-->
+<!--
+    EnumTypeHandler存储的是对应类的名字，可以存储成一个字符串
+    EnumOrdinalTypeHandler存储的是枚举类型的顺序
+-->
+<mapper namespace="com.dw.sms.mapper.EnumTestMapper">
+    <resultMap id="enumTestMap" type="com.dw.sms.entity.EnumTest">
+        <id property="id" column="id"></id>
+        <result property="brand" column="brand"></result>
+        <result property="color" column="color" typeHandler="org.apache.ibatis.type.EnumTypeHandler"></result>
+    </resultMap>
+    <insert id="add" useGeneratedKeys="true" parameterType="com.dw.sms.entity.EnumTest" keyProperty="id" keyColumn="id">
+        insert into enum_test values (id,#{brand},#{color,typeHandler=org.apache.ibatis.type.EnumTypeHandler})
+    </insert>
+    <select id="findAll" resultMap="enumTestMap">
+        select * from enum_test
+    </select>
+</mapper>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--对应的AccountMap类-->
+<mapper namespace="com.dw.sms.mapper.RoleMapper">
+    <resultMap id="roleUserMap" type="com.dw.sms.entity.Role">
+        <id property="roleId" column="role_id"></id>
+        <result property="roleName" column="role_name"></result>
+        <result property="roleDesc" column="roleDesc"></result>
+        <collection property="userList" ofType="com.dw.sms.entity.User">
+            <id property="userId" column="user_id"></id>
+            <result property="username" column="username"></result>
+            <result property="password" column="password"></result>
+            <result property="age" column="age"></result>
+        </collection>
+    </resultMap>
+    <select id="findAll" resultMap="roleUserMap">
+        select r.*,u.* from role r left outer join user_role ur on ur.role_id = r.role_id left outer join `user` u on u.user_id = ur.user_id
+    </select>
+</mapper>

@@ -23,4 +23,10 @@ public interface UserMapper {
     List<User> queryCondition(@Param("username") String username, @Param("age") Integer age);
 
     Page<User> findByPaging(Map paras);
+
+    /*一对多*/
+    List<User> findAllDetail();
+
+    /*多对多*/
+    List<User> findAllDetails();
 }

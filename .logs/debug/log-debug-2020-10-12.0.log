@@ -1,0 +1,47 @@
+2020-10-12 11:13:02.282 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
+2020-10-12 11:13:02.320 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
+2020-10-12 11:13:02.349 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12
+2020-10-12 14:09:07.951 [http-nio-192.168.0.117-8888-exec-10] DEBUG com.dw.sms.mapper.UserMapper.findById - ==>  Preparing: select * from user where user_id = ?
+2020-10-12 14:09:07.973 [http-nio-192.168.0.117-8888-exec-10] DEBUG com.dw.sms.mapper.UserMapper.findById - ==> Parameters: 1(Long)
+2020-10-12 14:09:07.992 [http-nio-192.168.0.117-8888-exec-10] DEBUG com.dw.sms.mapper.UserMapper.findById - <==      Total: 1
+2020-10-12 14:10:52.402 [main] DEBUG com.dw.sms.mapper.UserMapper.findById - ==>  Preparing: select * from user where user_id = ?
+2020-10-12 14:10:52.430 [main] DEBUG com.dw.sms.mapper.UserMapper.findById - ==> Parameters: 1(Long)
+2020-10-12 14:10:52.452 [main] DEBUG com.dw.sms.mapper.UserMapper.findById - <==      Total: 1
+2020-10-12 14:19:52.452 [main] DEBUG com.dw.sms.mapper.UserMapper.findById - ==>  Preparing: select * from user where user_id = ?
+2020-10-12 14:19:52.486 [main] DEBUG com.dw.sms.mapper.UserMapper.findById - ==> Parameters: 1(Long)
+2020-10-12 14:19:52.521 [main] DEBUG com.dw.sms.mapper.UserMapper.findById - <==      Total: 1
+2020-10-12 16:32:15.163 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==>  Preparing: select u.*,a.account_id,a.money from `user` u ,account a where u.user_id = a.user_id
+2020-10-12 16:32:15.190 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==> Parameters: 
+2020-10-12 16:32:15.216 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - <==      Total: 3
+2020-10-12 17:05:37.082 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==>  Preparing: select u.*,a.account_id,a.money from `user` u ,account a where u.user_id = a.user_id
+2020-10-12 17:05:37.117 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==> Parameters: 
+2020-10-12 17:05:37.160 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - <==      Total: 4
+2020-10-12 17:06:22.733 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==>  Preparing: select u.*,a.account_id,a.money from `user` u ,account a where u.user_id = a.user_id
+2020-10-12 17:06:22.773 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==> Parameters: 
+2020-10-12 17:06:22.820 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - <==      Total: 4
+2020-10-12 17:07:17.186 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==>  Preparing: select u.*,a.account_id,a.money from `user` u ,account a where u.user_id = a.user_id
+2020-10-12 17:07:17.218 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==> Parameters: 
+2020-10-12 17:07:17.268 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - <==      Total: 4
+2020-10-12 17:07:17.285 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - ==>  Preparing: select u.*,a.account_id,a.money from `user` u, account a where u.user_id = a.user_id
+2020-10-12 17:07:17.286 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - ==> Parameters: 
+2020-10-12 17:07:17.306 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - <==      Total: 4
+2020-10-12 17:48:15.376 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==>  Preparing: select u.*,a.account_id,a.money from `user` u ,account a where u.user_id = a.user_id
+2020-10-12 17:48:15.417 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==> Parameters: 
+2020-10-12 17:48:15.449 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - <==      Total: 4
+2020-10-12 17:48:15.483 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - ==>  Preparing: select u.*,a.account_id,a.money from `user` u, account a where u.user_id = a.user_id
+2020-10-12 17:48:15.484 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - ==> Parameters: 
+2020-10-12 17:48:15.488 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - <==      Total: 4
+2020-10-12 17:48:15.489 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetails - ==>  Preparing: select u.*,r.* from `user` u left outer join `user_role` ur on ur.user_id = u.user_id left outer join role r on r.role_id = ur.role_id
+2020-10-12 17:48:15.489 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetails - ==> Parameters: 
+2020-10-12 17:49:24.211 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==>  Preparing: select u.*,a.account_id,a.money from `user` u ,account a where u.user_id = a.user_id
+2020-10-12 17:49:24.249 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - ==> Parameters: 
+2020-10-12 17:49:24.276 [main] DEBUG com.dw.sms.mapper.AccountMapper.findAll - <==      Total: 4
+2020-10-12 17:49:24.288 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - ==>  Preparing: select u.*,a.account_id,a.money from `user` u, account a where u.user_id = a.user_id
+2020-10-12 17:49:24.288 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - ==> Parameters: 
+2020-10-12 17:49:24.296 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetail - <==      Total: 4
+2020-10-12 17:49:24.298 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetails - ==>  Preparing: select u.*,r.* from `user` u left outer join `user_role` ur on ur.user_id = u.user_id left outer join role r on r.role_id = ur.role_id
+2020-10-12 17:49:24.299 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetails - ==> Parameters: 
+2020-10-12 17:49:24.305 [main] DEBUG com.dw.sms.mapper.UserMapper.findAllDetails - <==      Total: 12
+2020-10-12 17:49:24.307 [main] DEBUG com.dw.sms.mapper.RoleMapper.findAll - ==>  Preparing: select r.*,u.* from role r left outer join user_role ur on ur.role_id = r.role_id left outer join `user` u on u.user_id = ur.user_id
+2020-10-12 17:49:24.308 [main] DEBUG com.dw.sms.mapper.RoleMapper.findAll - ==> Parameters: 
+2020-10-12 17:49:24.318 [main] DEBUG com.dw.sms.mapper.RoleMapper.findAll - <==      Total: 4

@@ -1,9 +1,23 @@
-2020-10-06 11:34:22.602 [http-nio-192.168.0.117-8888-exec-8] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
-2020-10-06 11:34:22.629 [http-nio-192.168.0.117-8888-exec-8] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
-2020-10-06 11:34:22.691 [http-nio-192.168.0.117-8888-exec-8] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12
-2020-10-06 12:52:41.849 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
-2020-10-06 12:52:41.866 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
-2020-10-06 12:52:41.884 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12
-2020-10-06 15:03:12.165 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
-2020-10-06 15:03:12.186 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
-2020-10-06 15:03:12.207 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12
+2020-10-13 09:39:13.094 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==>  Preparing: insert into enum_test values (id,?,?)
+2020-10-13 09:39:13.149 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==> Parameters: 林肯(String), BLUE(String)
+2020-10-13 09:39:13.355 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - <==    Updates: 1
+2020-10-13 09:41:44.004 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==>  Preparing: insert into enum_test values (id,?,?)
+2020-10-13 09:41:44.034 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==> Parameters: 林肯(String), BLUE(String)
+2020-10-13 09:41:44.047 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - <==    Updates: 1
+2020-10-13 09:44:01.471 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==>  Preparing: insert into enum_test values (id,?,?)
+2020-10-13 09:44:01.510 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==> Parameters: 林肯(String), BLUE(String)
+2020-10-13 09:44:01.514 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - <==    Updates: 1
+2020-10-13 09:44:39.473 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==>  Preparing: insert into enum_test values (id,?,?)
+2020-10-13 09:44:39.503 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - ==> Parameters: 林肯(String), BLUE(String)
+2020-10-13 09:44:39.518 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.add - <==    Updates: 1
+2020-10-13 09:49:47.807 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.findAll - ==>  Preparing: select * from enum_test
+2020-10-13 09:49:47.844 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.findAll - ==> Parameters: 
+2020-10-13 09:58:42.966 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.findAll - ==>  Preparing: select * from enum_test
+2020-10-13 09:58:43.008 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.findAll - ==> Parameters: 
+2020-10-13 09:58:43.032 [main] DEBUG com.dw.sms.mapper.EnumTestMapper.findAll - <==      Total: 1
+2020-10-13 10:41:24.714 [main] DEBUG com.dw.sms.mapper.JsonTestMapper.findAll - ==>  Preparing: select * from json_test
+2020-10-13 10:41:24.744 [main] DEBUG com.dw.sms.mapper.JsonTestMapper.findAll - ==> Parameters: 
+2020-10-13 10:41:24.829 [main] DEBUG com.dw.sms.mapper.JsonTestMapper.findAll - <==      Total: 1
+2020-10-13 10:45:59.271 [main] DEBUG com.dw.sms.mapper.JsonTestMapper.add - ==>  Preparing: insert into json_test values (json_id,?)
+2020-10-13 10:45:59.317 [main] DEBUG com.dw.sms.mapper.JsonTestMapper.add - ==> Parameters: {"1":"{\"author\": \"captain&d\", \"blog\": \"https://www.cnblogs.com/captainad\"}"}(String)
+2020-10-13 10:45:59.323 [main] DEBUG com.dw.sms.mapper.JsonTestMapper.add - <==    Updates: 1

@@ -1,0 +1,9 @@
+2020-10-06 11:34:22.602 [http-nio-192.168.0.117-8888-exec-8] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
+2020-10-06 11:34:22.629 [http-nio-192.168.0.117-8888-exec-8] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
+2020-10-06 11:34:22.691 [http-nio-192.168.0.117-8888-exec-8] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12
+2020-10-06 12:52:41.849 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
+2020-10-06 12:52:41.866 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
+2020-10-06 12:52:41.884 [http-nio-192.168.0.117-8888-exec-1] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12
+2020-10-06 15:03:12.165 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==>  Preparing: select * from user
+2020-10-06 15:03:12.186 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - ==> Parameters: 
+2020-10-06 15:03:12.207 [http-nio-192.168.0.117-8888-exec-7] DEBUG com.dw.sms.mapper.UserMapper.findAll - <==      Total: 12

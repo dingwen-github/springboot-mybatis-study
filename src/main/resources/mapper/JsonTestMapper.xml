@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--对应的JsonTestMapper类-->
+<mapper namespace="com.dw.sms.mapper.JsonTestMapper">
+    <resultMap id="jsonTestMap" type="com.dw.sms.entity.JsonTest">
+        <id property="jsonId" column="json_id"></id>
+        <result property="content" column="content" typeHandler="com.dw.sms.typehandler.JsonTypeHandler"></result>
+    </resultMap>
+
+    <select id="findAll" resultMap="jsonTestMap">
+        select * from json_test
+    </select>
+
+    <insert id="add" useGeneratedKeys="true" keyColumn="json_id" keyProperty="jsonId" parameterType="com.dw.sms.entity.JsonTest">
+        insert into json_test values (json_id,#{content,typeHandler=com.dw.sms.typehandler.JsonTypeHandler})
+    </insert>
+</mapper>
